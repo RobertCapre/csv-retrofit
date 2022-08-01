@@ -13,7 +13,6 @@ data class ResponseListUsers(
     var support: Support,
     @SerializedName("total")
     var total: Int,
-    @SerializedName(
-        "total_pages")
+    @SerializedName("total_pages")
     var totalPages: Int
 )
